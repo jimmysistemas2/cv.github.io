@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--
+    ==========================================================
+    DASHBOARD CURSO DE VIDA RIS ATE
+    ==========================================================
+    Este archivo index.html es la página principal del dashboard.
+
+    Explicación simple:
+    - Aquí se define la estructura del dashboard.
+    - El diseño visual está en style.css.
+    - La interactividad está en script.js.
+    - Los datos están en data.json.
+    - Este dashboard luego puede publicarse en GitHub Pages.
+    - La URL publicada se pegará en el Dashboard RIS Ate, en config.js,
+      dentro de la clave: curso
+  -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso de Vida RIS Ate</title>
+
+  <!-- Iconos modernos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Chart.js para gráficos -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Encabezado superior -->
+  <header class="header">
+    <div>
+      <span class="eyebrow">DIRIS Lima Este · RIS Ate</span>
+      <h1>Dashboard Curso de Vida</h1>
+      <p>Modelo de Cuidado Integral de la Salud por etapas de vida.</p>
+    </div>
+
+    <div class="header-card">
+      <i class="fa-solid fa-users"></i>
+      <div>
+        <strong id="totalPopulation">0</strong>
+        <span>Población asignada RIS Ate</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- KPIs superiores -->
+  <section class="kpi-row">
+    <article class="kpi">
+      <i class="fa-solid fa-hospital"></i>
+      <div>
+        <small>IPRESS</small>
+        <strong id="kpiIpress">12</strong>
+      </div>
+    </article>
+
+    <article class="kpi">
+      <i class="fa-solid fa-users-viewfinder"></i>
+      <div>
+        <small>Atendidos</small>
+        <strong id="kpiAtendidos">0</strong>
+      </div>
+    </article>
+
+    <article class="kpi">
+      <i class="fa-solid fa-kit-medical"></i>
+      <div>
+        <small>Atenciones</small>
+        <strong id="kpiAtenciones">0</strong>
+      </div>
+    </article>
+
+    <article class="kpi">
+      <i class="fa-solid fa-bullseye"></i>
+      <div>
+        <small>Cobertura global</small>
+        <strong id="kpiCobertura">0%</strong>
+      </div>
+    </article>
+  </section>
+
+  <!-- Modelo radial tipo estrella -->
+  <section class="radial-section">
+    <div class="radial-title">
+      <h2>Modelo de Cuidado Integral por Curso de Vida</h2>
+      <p>Seleccione una etapa para ver población, atendidos, atenciones, cobertura e intensidad.</p>
+    </div>
+
+    <div class="radial-dashboard">
+
+      <!-- Centro RIS Ate -->
+      <div class="center-node">
+        <div class="pulse"></div>
+        <strong>RIS ATE</strong>
+        <span>Cuidado Integral</span>
+        <small>Curso de vida</small>
+      </div>
+
+      <!-- Los nodos se llenan desde script.js -->
+      <div id="radialNodes"></div>
+
+      <!-- Líneas decorativas -->
+      <span class="line l1"></span>
+      <span class="line l2"></span>
+      <span class="line l3"></span>
+      <span class="line l4"></span>
+      <span class="line l5"></span>
+      <span class="line l6"></span>
+    </div>
+  </section>
+
+  <!-- Panel de detalle -->
+  <section class="detail-grid">
+
+    <article class="detail-card selected-detail" id="detailPanel">
+      <h3>Seleccione un curso de vida</h3>
+      <p>Haga clic en una tarjeta radial para activar la lectura gerencial.</p>
+    </article>
+
+    <article class="chart-card">
+      <h3>Distribución poblacional</h3>
+      <canvas id="populationChart"></canvas>
+    </article>
+
+    <article class="chart-card">
+      <h3>Cobertura por curso de vida</h3>
+      <canvas id="coverageChart"></canvas>
+    </article>
+
+  </section>
+
+  <!-- Ranking IPRESS -->
+  <section class="ranking-section">
+    <div>
+      <h2>Ranking territorial por población asignada</h2>
+      <p>Permite identificar establecimientos con mayor carga poblacional potencial.</p>
+    </div>
+
+    <div id="ipressRanking" class="ranking-list"></div>
+  </section>
+
+  <!-- Glosario metodológico -->
+  <section class="methodology">
+    <h2>Criterio de clasificación</h2>
+
+    <div class="method-grid">
+      <div><strong>Periodo prenatal</strong><span>Gestantes</span></div>
+      <div><strong>Niña / Niño</strong><span>0 a 11 años, 11 meses y 29 días</span></div>
+      <div><strong>Adolescente</strong><span>12 a 17 años, 11 meses y 29 días</span></div>
+      <div><strong>Adulto joven</strong><span>18 a 29 años, 11 meses y 29 días</span></div>
+      <div><strong>Adulto</strong><span>30 a 59 años, 11 meses y 29 días</span></div>
+      <div><strong>Adulto mayor</strong><span>60 años a más</span></div>
+    </div>
+  </section>
+
+  <footer>
+    RIS Ate · DIRIS Lima Este · Dashboard Curso de Vida · Preparado para integración en Dashboard RIS Ate
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "titulo": "Dashboard Curso de Vida RIS Ate",
+    "ris": "RIS Ate",
+    "diris": "DIRIS Lima Este",
+    "poblacion_total": 310356,
+    "ipress": 12,
+    "fecha_corte": "01/06/2026",
+    "nota": "Periodo prenatal se considera con población de gestantes esperadas. Las atenciones prenatales se actualizarán cuando se valide el campo condición gestante."
+  },
+  "cursos": [
+    {
+      "id": "prenatal",
+      "nombre": "Periodo prenatal",
+      "rango": "Gestantes",
+      "icono": "fa-person-pregnant",
+      "color": "#e83e8c",
+      "poblacion": 3854,
+      "atendidos": 0,
+      "atenciones": 0
+    },
+    {
+      "id": "nino",
+      "nombre": "Niña / Niño",
+      "rango": "0 a 11 años, 11 meses y 29 días",
+      "icono": "fa-baby",
+      "color": "#00a7e1",
+      "poblacion": 49149,
+      "atendidos": 18708,
+      "atenciones": 81458
+    },
+    {
+      "id": "adolescente",
+      "nombre": "Adolescente",
+      "rango": "12 a 17 años, 11 meses y 29 días",
+      "icono": "fa-child-reaching",
+      "color": "#8e44ad",
+      "poblacion": 26981,
+      "atendidos": 6530,
+      "atenciones": 22322
+    },
+    {
+      "id": "joven",
+      "nombre": "Adulto joven",
+      "rango": "18 a 29 años, 11 meses y 29 días",
+      "icono": "fa-user-graduate",
+      "color": "#f39c12",
+      "poblacion": 60194,
+      "atendidos": 14442,
+      "atenciones": 52671
+    },
+    {
+      "id": "adulto",
+      "nombre": "Adulto",
+      "rango": "30 a 59 años, 11 meses y 29 días",
+      "icono": "fa-user-tie",
+      "color": "#005b96",
+      "poblacion": 133670,
+      "atendidos": 31660,
+      "atenciones": 102334
+    },
+    {
+      "id": "mayor",
+      "nombre": "Adulto mayor",
+      "rango": "60 años a más",
+      "icono": "fa-person-cane",
+      "color": "#159a55",
+      "poblacion": 40362,
+      "atendidos": 11967,
+      "atenciones": 40480
+    }
+  ],
+  "ipress_ranking": [
+    {
+      "ipress": "C.S. Fortaleza",
+      "poblacion": 89256
+    },
+    {
+      "ipress": "C.S. Micaela Bastidas",
+      "poblacion": 55378
+    },
+    {
+      "ipress": "C.S. Alfa y Omega",
+      "poblacion": 39689
+    },
+    {
+      "ipress": "C.S. San Fernando",
+      "poblacion": 31333
+    },
+    {
+      "ipress": "P.S. Ate",
+      "poblacion": 24916
+    },
+    {
+      "ipress": "C.S. Gustavo Lanatta",
+      "poblacion": 19976
+    },
+    {
+      "ipress": "C.S. Salamanca",
+      "poblacion": 19900
+    },
+    {
+      "ipress": "P.S. Túpac Amaru",
+      "poblacion": 18508
+    },
+    {
+      "ipress": "C.S. El Bosque",
+      "poblacion": 11400
+    },
+    {
+      "ipress": "CSMC Santísima Virgen de la Cruz",
+      "poblacion": 0
+    },
+    {
+      "ipress": "SMA Hogar Protegido Ate",
+      "poblacion": 0
+    },
+    {
+      "ipress": "CSMC SAYARIY",
+      "poblacion": 0
+    }
+  ]
+}
