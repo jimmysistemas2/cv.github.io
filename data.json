@@ -1,12 +1,7 @@
 {
   "metadata": {
-    "titulo": "Dashboard Curso de Vida RIS Ate",
-    "ris": "RIS Ate",
-    "diris": "DIRIS Lima Este",
     "poblacion_total": 310356,
-    "ipress": 12,
-    "fecha_corte": "01/06/2026",
-    "nota": "Periodo prenatal se considera con población de gestantes esperadas. Las atenciones prenatales se actualizarán cuando se valide el campo condición gestante."
+    "ipress": 12
   },
   "cursos": [
     {
@@ -17,7 +12,73 @@
       "color": "#e83e8c",
       "poblacion": 3854,
       "atendidos": 0,
-      "atenciones": 0
+      "atenciones": 0,
+      "participacion": 1.2,
+      "cobertura": 0.0,
+      "intensidad": 0,
+      "pos": "top",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 0,
+          "atenciones": 0
+        }
+      ]
     },
     {
       "id": "nino",
@@ -27,27 +88,225 @@
       "color": "#00a7e1",
       "poblacion": 49149,
       "atendidos": 18708,
-      "atenciones": 81458
+      "atenciones": 81458,
+      "participacion": 15.8,
+      "cobertura": 38.1,
+      "intensidad": 4.35,
+      "pos": "right-top",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 5380,
+          "atenciones": 23427
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 3338,
+          "atenciones": 14535
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 2392,
+          "atenciones": 10417
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 1889,
+          "atenciones": 8224
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 1502,
+          "atenciones": 6540
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 1204,
+          "atenciones": 5243
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 1200,
+          "atenciones": 5223
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 1116,
+          "atenciones": 4858
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 687,
+          "atenciones": 2992
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 0,
+          "atenciones": 0
+        }
+      ]
     },
     {
       "id": "adolescente",
       "nombre": "Adolescente",
       "rango": "12 a 17 años, 11 meses y 29 días",
       "icono": "fa-child-reaching",
-      "color": "#8e44ad",
+      "color": "#ff7a00",
       "poblacion": 26981,
       "atendidos": 6530,
-      "atenciones": 22322
+      "atenciones": 22322,
+      "participacion": 8.7,
+      "cobertura": 24.2,
+      "intensidad": 3.42,
+      "pos": "right-bottom",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 1878,
+          "atenciones": 6420
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 1165,
+          "atenciones": 3983
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 835,
+          "atenciones": 2855
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 659,
+          "atenciones": 2254
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 524,
+          "atenciones": 1792
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 420,
+          "atenciones": 1437
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 419,
+          "atenciones": 1431
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 389,
+          "atenciones": 1331
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 240,
+          "atenciones": 820
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 1,
+          "atenciones": 0
+        }
+      ]
     },
     {
       "id": "joven",
       "nombre": "Adulto joven",
       "rango": "18 a 29 años, 11 meses y 29 días",
       "icono": "fa-user-graduate",
-      "color": "#f39c12",
+      "color": "#1db954",
       "poblacion": 60194,
       "atendidos": 14442,
-      "atenciones": 52671
+      "atenciones": 52671,
+      "participacion": 19.4,
+      "cobertura": 24.0,
+      "intensidad": 3.65,
+      "pos": "bottom",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 4153,
+          "atenciones": 15148
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 2577,
+          "atenciones": 9398
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 1847,
+          "atenciones": 6736
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 1458,
+          "atenciones": 5318
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 1159,
+          "atenciones": 4229
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 930,
+          "atenciones": 3390
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 926,
+          "atenciones": 3377
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 861,
+          "atenciones": 3141
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 530,
+          "atenciones": 1935
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 1,
+          "atenciones": 0
+        }
+      ]
     },
     {
       "id": "adulto",
@@ -57,67 +316,149 @@
       "color": "#005b96",
       "poblacion": 133670,
       "atendidos": 31660,
-      "atenciones": 102334
+      "atenciones": 102334,
+      "participacion": 43.1,
+      "cobertura": 23.7,
+      "intensidad": 3.23,
+      "pos": "left-bottom",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 9105,
+          "atenciones": 29430
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 5649,
+          "atenciones": 18260
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 4049,
+          "atenciones": 13087
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 3196,
+          "atenciones": 10331
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 2542,
+          "atenciones": 8216
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 2038,
+          "atenciones": 6587
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 2030,
+          "atenciones": 6562
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 1888,
+          "atenciones": 6103
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 1163,
+          "atenciones": 3759
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 0,
+          "atenciones": 0
+        }
+      ]
     },
     {
       "id": "mayor",
       "nombre": "Adulto mayor",
       "rango": "60 años a más",
       "icono": "fa-person-cane",
-      "color": "#159a55",
+      "color": "#d81b60",
       "poblacion": 40362,
       "atendidos": 11967,
-      "atenciones": 40480
-    }
-  ],
-  "ipress_ranking": [
-    {
-      "ipress": "C.S. Fortaleza",
-      "poblacion": 89256
-    },
-    {
-      "ipress": "C.S. Micaela Bastidas",
-      "poblacion": 55378
-    },
-    {
-      "ipress": "C.S. Alfa y Omega",
-      "poblacion": 39689
-    },
-    {
-      "ipress": "C.S. San Fernando",
-      "poblacion": 31333
-    },
-    {
-      "ipress": "P.S. Ate",
-      "poblacion": 24916
-    },
-    {
-      "ipress": "C.S. Gustavo Lanatta",
-      "poblacion": 19976
-    },
-    {
-      "ipress": "C.S. Salamanca",
-      "poblacion": 19900
-    },
-    {
-      "ipress": "P.S. Túpac Amaru",
-      "poblacion": 18508
-    },
-    {
-      "ipress": "C.S. El Bosque",
-      "poblacion": 11400
-    },
-    {
-      "ipress": "CSMC Santísima Virgen de la Cruz",
-      "poblacion": 0
-    },
-    {
-      "ipress": "SMA Hogar Protegido Ate",
-      "poblacion": 0
-    },
-    {
-      "ipress": "CSMC SAYARIY",
-      "poblacion": 0
+      "atenciones": 40480,
+      "participacion": 13.0,
+      "cobertura": 29.6,
+      "intensidad": 3.38,
+      "pos": "left-top",
+      "ipress": [
+        {
+          "ipress": "C.S. Fortaleza",
+          "atendidos": 3442,
+          "atenciones": 11642
+        },
+        {
+          "ipress": "C.S. Micaela Bastidas",
+          "atendidos": 2135,
+          "atenciones": 7223
+        },
+        {
+          "ipress": "C.S. Alfa y Omega",
+          "atendidos": 1530,
+          "atenciones": 5177
+        },
+        {
+          "ipress": "C.S. San Fernando",
+          "atendidos": 1208,
+          "atenciones": 4087
+        },
+        {
+          "ipress": "P.S. Ate",
+          "atendidos": 961,
+          "atenciones": 3250
+        },
+        {
+          "ipress": "C.S. Gustavo Lanatta",
+          "atendidos": 770,
+          "atenciones": 2605
+        },
+        {
+          "ipress": "C.S. Salamanca",
+          "atendidos": 767,
+          "atenciones": 2596
+        },
+        {
+          "ipress": "P.S. Túpac Amaru",
+          "atendidos": 714,
+          "atenciones": 2414
+        },
+        {
+          "ipress": "C.S. El Bosque",
+          "atendidos": 440,
+          "atenciones": 1487
+        },
+        {
+          "ipress": "CSMC Santísima Virgen de la Cruz",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "SMA Hogar Protegido Ate",
+          "atendidos": 0,
+          "atenciones": 0
+        },
+        {
+          "ipress": "CSMC SAYARIY",
+          "atendidos": 0,
+          "atenciones": 0
+        }
+      ]
     }
   ]
 }
